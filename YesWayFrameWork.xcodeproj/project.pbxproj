@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F301984E194C3377009612E3 /* CustomActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F301984D194C3377009612E3 /* CustomActivityIndicatorView.swift */; };
+		F3019850194C41C7009612E3 /* CommandID.swift in Sources */ = {isa = PBXBuildFile; fileRef = F301984F194C41C7009612E3 /* CommandID.swift */; };
+		F3019853194C4B1B009612E3 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3019852194C4B1B009612E3 /* TestViewController.swift */; };
+		F3019855194C54C7009612E3 /* ViewControllerPathManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3019854194C54C7009612E3 /* ViewControllerPathManager.swift */; };
+		F30E0165194DE10E00B985C7 /* RootNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30E0164194DE10E00B985C7 /* RootNode.swift */; };
+		F319E2E3194ADA0A00F7AAA4 /* BusinessType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F319E2E2194ADA0A00F7AAA4 /* BusinessType.swift */; };
+		F319E2E5194AE06C00F7AAA4 /* BusinessFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F319E2E4194AE06C00F7AAA4 /* BusinessFactory.swift */; };
+		F319E2E8194AF8AC00F7AAA4 /* BaseNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F319E2E7194AF8AC00F7AAA4 /* BaseNode.swift */; };
+		F319E2EB194AF94100F7AAA4 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F319E2EA194AF94100F7AAA4 /* BaseViewController.swift */; };
+		F319E2ED194AFCE900F7AAA4 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = F319E2EC194AFCE900F7AAA4 /* Message.swift */; };
+		F319E2EF194AFD2800F7AAA4 /* NodeAndViewControllerID.swift in Sources */ = {isa = PBXBuildFile; fileRef = F319E2EE194AFD2800F7AAA4 /* NodeAndViewControllerID.swift */; };
+		F32357571946E7E900C888F6 /* FileHttpConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32357561946E7E900C888F6 /* FileHttpConnect.swift */; };
+		F35FB5F2194E91B00058461B /* BaseCustomMessageBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35FB5F1194E91B00058461B /* BaseCustomMessageBox.swift */; };
+		F35FB5F5194E96770058461B /* TestUserMoudle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35FB5F4194E96770058461B /* TestUserMoudle.swift */; };
+		F3CA1F421947E83900E23675 /* BaseBusinessHttpConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CA1F411947E83900E23675 /* BaseBusinessHttpConnect.swift */; };
+		F3CA1F481947FE5B00E23675 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CA1F471947FE5B00E23675 /* Config.swift */; };
+		F3CA1F4B1947FF7900E23675 /* BaseBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CA1F4A1947FF7900E23675 /* BaseBusiness.swift */; };
+		F3CA1F4D1948049400E23675 /* BusinessHttpConnectWithNtspHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CA1F4C1948049400E23675 /* BusinessHttpConnectWithNtspHeader.swift */; };
+		F3CA1F501948052E00E23675 /* NtspHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CA1F4F1948052E00E23675 /* NtspHeader.swift */; };
+		F3CA1F5219481E3F00E23675 /* HttpConnectDefineData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CA1F5119481E3F00E23675 /* HttpConnectDefineData.swift */; };
+		F3CA1F551948257500E23675 /* BaseDataModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CA1F541948257500E23675 /* BaseDataModule.swift */; };
+		F3CA1F57194828A400E23675 /* BusinessInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CA1F56194828A400E23675 /* BusinessInterface.swift */; };
+		F3CA1F5B194831F200E23675 /* HttpConnectInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CA1F5A194831F200E23675 /* HttpConnectInterface.swift */; };
+		F3CA1F5D194840D200E23675 /* DataModuleDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CA1F5C194840D200E23675 /* DataModuleDelegate.swift */; };
+		F3CA1F5F19485AAC00E23675 /* TestBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CA1F5E19485AAC00E23675 /* TestBusiness.swift */; };
+		F3CC8BA519414E010027B537 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CC8BA419414E010027B537 /* AppDelegate.swift */; };
+		F3CC8BA719414E010027B537 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3CC8BA619414E010027B537 /* Images.xcassets */; };
+		F3CC8BB319414E020027B537 /* YesWayFrameWorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CC8BB219414E020027B537 /* YesWayFrameWorkTests.swift */; };
+		F3CC8BBF19414F330027B537 /* HttpHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CC8BBE19414F330027B537 /* HttpHead.swift */; };
+		F3CC8BC1194152AA0027B537 /* HttpErrorCodeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CC8BC0194152AA0027B537 /* HttpErrorCodeManager.swift */; };
+		F3CC8BC519415DB30027B537 /* ResDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CC8BC419415DB30027B537 /* ResDefine.swift */; };
+		F3CC8BC719415F1D0027B537 /* HttpConnectRespones.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CC8BC619415F1D0027B537 /* HttpConnectRespones.swift */; };
+		F3CC8BC9194161ED0027B537 /* BaseHttpConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CC8BC8194161ED0027B537 /* BaseHttpConnect.swift */; };
+		F3CC8BCB194166A90027B537 /* HttpConnectDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CC8BCA194166A90027B537 /* HttpConnectDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3CC8BAD19414E010027B537 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3CC8B9719414E010027B537 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3CC8B9E19414E010027B537;
+			remoteInfo = YesWayFrameWork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F301984D194C3377009612E3 /* CustomActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomActivityIndicatorView.swift; path = YesWayFrameWork/UICustomControl/CustomActivityIndicatorView/CustomActivityIndicatorView.swift; sourceTree = "<group>"; };
+		F301984F194C41C7009612E3 /* CommandID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommandID.swift; path = YesWayFrameWork/ViewController/CommandID.swift; sourceTree = "<group>"; };
+		F3019852194C4B1B009612E3 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestViewController.swift; path = YesWayFrameWork/ViewController/Test/TestViewController.swift; sourceTree = "<group>"; };
+		F3019854194C54C7009612E3 /* ViewControllerPathManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerPathManager.swift; path = YesWayFrameWork/ViewController/ViewControllerPathManager.swift; sourceTree = "<group>"; };
+		F30E0164194DE10E00B985C7 /* RootNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RootNode.swift; path = YesWayFrameWork/Node/RootNode.swift; sourceTree = "<group>"; };
+		F319E2E2194ADA0A00F7AAA4 /* BusinessType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BusinessType.swift; path = YesWayFrameWork/Business/BusinessType.swift; sourceTree = "<group>"; };
+		F319E2E4194AE06C00F7AAA4 /* BusinessFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BusinessFactory.swift; path = YesWayFrameWork/Business/BusinessFactory.swift; sourceTree = "<group>"; };
+		F319E2E7194AF8AC00F7AAA4 /* BaseNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseNode.swift; path = YesWayFrameWork/Node/BaseNode.swift; sourceTree = "<group>"; };
+		F319E2EA194AF94100F7AAA4 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = YesWayFrameWork/ViewController/BaseViewController.swift; sourceTree = "<group>"; };
+		F319E2EC194AFCE900F7AAA4 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Message.swift; path = YesWayFrameWork/ViewController/Message.swift; sourceTree = "<group>"; };
+		F319E2EE194AFD2800F7AAA4 /* NodeAndViewControllerID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NodeAndViewControllerID.swift; path = YesWayFrameWork/ViewController/NodeAndViewControllerID.swift; sourceTree = "<group>"; };
+		F32357561946E7E900C888F6 /* FileHttpConnect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileHttpConnect.swift; path = ../../../Downloads/FileHttpConnect.swift; sourceTree = "<group>"; };
+		F35FB5F1194E91B00058461B /* BaseCustomMessageBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseCustomMessageBox.swift; path = YesWayFrameWork/UICustomControl/CustomMessageBox/BaseCustomMessageBox.swift; sourceTree = "<group>"; };
+		F35FB5F4194E96770058461B /* TestUserMoudle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestUserMoudle.swift; path = YesWayFrameWork/DataModule/TestMoudle/TestUserMoudle.swift; sourceTree = "<group>"; };
+		F3CA1F411947E83900E23675 /* BaseBusinessHttpConnect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseBusinessHttpConnect.swift; path = YesWayFrameWork/HttpConnect/BusinessHttpConnect/BaseBusinessHttpConnect.swift; sourceTree = "<group>"; };
+		F3CA1F471947FE5B00E23675 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		F3CA1F4A1947FF7900E23675 /* BaseBusiness.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseBusiness.swift; path = YesWayFrameWork/Business/BaseBusiness.swift; sourceTree = "<group>"; };
+		F3CA1F4C1948049400E23675 /* BusinessHttpConnectWithNtspHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BusinessHttpConnectWithNtspHeader.swift; path = YesWayFrameWork/HttpConnect/BusinessHttpConnect/BusinessHttpConnectWithNtspHeader.swift; sourceTree = "<group>"; };
+		F3CA1F4F1948052E00E23675 /* NtspHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NtspHeader.swift; path = YesWayFrameWork/Data/NtspHeader.swift; sourceTree = "<group>"; };
+		F3CA1F5119481E3F00E23675 /* HttpConnectDefineData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HttpConnectDefineData.swift; path = YesWayFrameWork/HttpConnect/BusinessHttpConnect/HttpConnectDefineData.swift; sourceTree = "<group>"; };
+		F3CA1F541948257500E23675 /* BaseDataModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseDataModule.swift; path = YesWayFrameWork/DataModule/BaseDataModule.swift; sourceTree = "<group>"; };
+		F3CA1F56194828A400E23675 /* BusinessInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BusinessInterface.swift; path = YesWayFrameWork/Business/BusinessInterface.swift; sourceTree = "<group>"; };
+		F3CA1F5A194831F200E23675 /* HttpConnectInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HttpConnectInterface.swift; path = YesWayFrameWork/HttpConnect/BaseHttpConnect/HttpConnectInterface.swift; sourceTree = "<group>"; };
+		F3CA1F5C194840D200E23675 /* DataModuleDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataModuleDelegate.swift; path = YesWayFrameWork/DataModule/DataModuleDelegate.swift; sourceTree = "<group>"; };
+		F3CA1F5E19485AAC00E23675 /* TestBusiness.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestBusiness.swift; path = YesWayFrameWork/Business/TestBusiness.swift; sourceTree = "<group>"; };
+		F3CC8B9F19414E010027B537 /* YesWayFrameWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YesWayFrameWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3CC8BA319414E010027B537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3CC8BA419414E010027B537 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3CC8BA619414E010027B537 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F3CC8BAC19414E010027B537 /* YesWayFrameWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YesWayFrameWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3CC8BB119414E010027B537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3CC8BB219414E020027B537 /* YesWayFrameWorkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YesWayFrameWorkTests.swift; sourceTree = "<group>"; };
+		F3CC8BBE19414F330027B537 /* HttpHead.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HttpHead.swift; path = YesWayFrameWork/HttpConnect/BaseHttpConnect/HttpHead.swift; sourceTree = "<group>"; };
+		F3CC8BC0194152AA0027B537 /* HttpErrorCodeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HttpErrorCodeManager.swift; path = YesWayFrameWork/HttpConnect/BaseHttpConnect/HttpErrorCodeManager.swift; sourceTree = "<group>"; };
+		F3CC8BC419415DB30027B537 /* ResDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResDefine.swift; sourceTree = "<group>"; };
+		F3CC8BC619415F1D0027B537 /* HttpConnectRespones.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HttpConnectRespones.swift; path = YesWayFrameWork/HttpConnect/BaseHttpConnect/HttpConnectRespones.swift; sourceTree = "<group>"; };
+		F3CC8BC8194161ED0027B537 /* BaseHttpConnect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseHttpConnect.swift; path = YesWayFrameWork/HttpConnect/BaseHttpConnect/BaseHttpConnect.swift; sourceTree = "<group>"; };
+		F3CC8BCA194166A90027B537 /* HttpConnectDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HttpConnectDelegate.swift; path = YesWayFrameWork/HttpConnect/BaseHttpConnect/HttpConnectDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3CC8B9C19414E010027B537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3CC8BA919414E010027B537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F301984B194C3311009612E3 /* UICustomControl */ = {
+			isa = PBXGroup;
+			children = (
+				F35FB5EE194E769D0058461B /* CustomMessageBox */,
+				F301984C194C335D009612E3 /* CustomActivityIndicatorView */,
+			);
+			name = UICustomControl;
+			sourceTree = "<group>";
+		};
+		F301984C194C335D009612E3 /* CustomActivityIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				F301984D194C3377009612E3 /* CustomActivityIndicatorView.swift */,
+			);
+			name = CustomActivityIndicatorView;
+			sourceTree = "<group>";
+		};
+		F3019851194C4AFD009612E3 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				F3019852194C4B1B009612E3 /* TestViewController.swift */,
+			);
+			name = Test;
+			sourceTree = "<group>";
+		};
+		F319E2E6194AF88D00F7AAA4 /* Node */ = {
+			isa = PBXGroup;
+			children = (
+				F319E2E7194AF8AC00F7AAA4 /* BaseNode.swift */,
+				F30E0164194DE10E00B985C7 /* RootNode.swift */,
+			);
+			name = Node;
+			sourceTree = "<group>";
+		};
+		F319E2E9194AF92300F7AAA4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F3019851194C4AFD009612E3 /* Test */,
+				F319E2EA194AF94100F7AAA4 /* BaseViewController.swift */,
+				F319E2EC194AFCE900F7AAA4 /* Message.swift */,
+				F319E2EE194AFD2800F7AAA4 /* NodeAndViewControllerID.swift */,
+				F301984F194C41C7009612E3 /* CommandID.swift */,
+				F3019854194C54C7009612E3 /* ViewControllerPathManager.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		F32357551946E7AD00C888F6 /* BaseFileHttpConnect */ = {
+			isa = PBXGroup;
+			children = (
+				F32357561946E7E900C888F6 /* FileHttpConnect.swift */,
+			);
+			name = BaseFileHttpConnect;
+			sourceTree = "<group>";
+		};
+		F35FB5EE194E769D0058461B /* CustomMessageBox */ = {
+			isa = PBXGroup;
+			children = (
+				F35FB5F1194E91B00058461B /* BaseCustomMessageBox.swift */,
+			);
+			name = CustomMessageBox;
+			sourceTree = "<group>";
+		};
+		F35FB5F3194E96460058461B /* TestMoudle */ = {
+			isa = PBXGroup;
+			children = (
+				F35FB5F4194E96770058461B /* TestUserMoudle.swift */,
+			);
+			name = TestMoudle;
+			sourceTree = "<group>";
+		};
+		F35FB5F6194E976F0058461B /* TestBusiness */ = {
+			isa = PBXGroup;
+			children = (
+				F3CA1F5E19485AAC00E23675 /* TestBusiness.swift */,
+			);
+			name = TestBusiness;
+			sourceTree = "<group>";
+		};
+		F3CA1F401947E80300E23675 /* BusinessHttpConnect */ = {
+			isa = PBXGroup;
+			children = (
+				F3CA1F411947E83900E23675 /* BaseBusinessHttpConnect.swift */,
+				F3CA1F4C1948049400E23675 /* BusinessHttpConnectWithNtspHeader.swift */,
+				F3CA1F5119481E3F00E23675 /* HttpConnectDefineData.swift */,
+			);
+			name = BusinessHttpConnect;
+			sourceTree = "<group>";
+		};
+		F3CA1F491947FF4300E23675 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				F35FB5F6194E976F0058461B /* TestBusiness */,
+				F3CA1F4A1947FF7900E23675 /* BaseBusiness.swift */,
+				F3CA1F56194828A400E23675 /* BusinessInterface.swift */,
+				F319E2E2194ADA0A00F7AAA4 /* BusinessType.swift */,
+				F319E2E4194AE06C00F7AAA4 /* BusinessFactory.swift */,
+			);
+			name = Business;
+			sourceTree = "<group>";
+		};
+		F3CA1F4E1948050000E23675 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F3CA1F4F1948052E00E23675 /* NtspHeader.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		F3CA1F531948255300E23675 /* DataModule */ = {
+			isa = PBXGroup;
+			children = (
+				F35FB5F3194E96460058461B /* TestMoudle */,
+				F3CA1F541948257500E23675 /* BaseDataModule.swift */,
+				F3CA1F5C194840D200E23675 /* DataModuleDelegate.swift */,
+			);
+			name = DataModule;
+			sourceTree = "<group>";
+		};
+		F3CC8B9619414E010027B537 = {
+			isa = PBXGroup;
+			children = (
+				F301984B194C3311009612E3 /* UICustomControl */,
+				F319E2E9194AF92300F7AAA4 /* ViewController */,
+				F319E2E6194AF88D00F7AAA4 /* Node */,
+				F3CA1F531948255300E23675 /* DataModule */,
+				F3CA1F4E1948050000E23675 /* Data */,
+				F3CA1F491947FF4300E23675 /* Business */,
+				F3CC8BC219415AA80027B537 /* Res */,
+				F3CC8BBC19414EBF0027B537 /* HttpConnect */,
+				F3CC8BA119414E010027B537 /* YesWayFrameWork */,
+				F3CC8BAF19414E010027B537 /* YesWayFrameWorkTests */,
+				F3CC8BA019414E010027B537 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3CC8BA019414E010027B537 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3CC8B9F19414E010027B537 /* YesWayFrameWork.app */,
+				F3CC8BAC19414E010027B537 /* YesWayFrameWorkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3CC8BA119414E010027B537 /* YesWayFrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				F3CC8BA419414E010027B537 /* AppDelegate.swift */,
+				F3CC8BA619414E010027B537 /* Images.xcassets */,
+				F3CC8BA219414E010027B537 /* Supporting Files */,
+			);
+			path = YesWayFrameWork;
+			sourceTree = "<group>";
+		};
+		F3CC8BA219414E010027B537 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3CC8BA319414E010027B537 /* Info.plist */,
+				F3CA1F471947FE5B00E23675 /* Config.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3CC8BAF19414E010027B537 /* YesWayFrameWorkTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3CC8BB219414E020027B537 /* YesWayFrameWorkTests.swift */,
+				F3CC8BB019414E010027B537 /* Supporting Files */,
+			);
+			path = YesWayFrameWorkTests;
+			sourceTree = "<group>";
+		};
+		F3CC8BB019414E010027B537 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3CC8BB119414E010027B537 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3CC8BBC19414EBF0027B537 /* HttpConnect */ = {
+			isa = PBXGroup;
+			children = (
+				F3CA1F401947E80300E23675 /* BusinessHttpConnect */,
+				F32357551946E7AD00C888F6 /* BaseFileHttpConnect */,
+				F3CC8BBD19414EE50027B537 /* BaseHttpConnect */,
+			);
+			name = HttpConnect;
+			sourceTree = "<group>";
+		};
+		F3CC8BBD19414EE50027B537 /* BaseHttpConnect */ = {
+			isa = PBXGroup;
+			children = (
+				F3CC8BBE19414F330027B537 /* HttpHead.swift */,
+				F3CC8BC0194152AA0027B537 /* HttpErrorCodeManager.swift */,
+				F3CC8BC619415F1D0027B537 /* HttpConnectRespones.swift */,
+				F3CC8BC8194161ED0027B537 /* BaseHttpConnect.swift */,
+				F3CC8BCA194166A90027B537 /* HttpConnectDelegate.swift */,
+				F3CA1F5A194831F200E23675 /* HttpConnectInterface.swift */,
+			);
+			name = BaseHttpConnect;
+			sourceTree = "<group>";
+		};
+		F3CC8BC219415AA80027B537 /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				F3CC8BC419415DB30027B537 /* ResDefine.swift */,
+			);
+			name = Res;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3CC8B9E19414E010027B537 /* YesWayFrameWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3CC8BB619414E020027B537 /* Build configuration list for PBXNativeTarget "YesWayFrameWork" */;
+			buildPhases = (
+				F3CC8B9B19414E010027B537 /* Sources */,
+				F3CC8B9C19414E010027B537 /* Frameworks */,
+				F3CC8B9D19414E010027B537 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YesWayFrameWork;
+			productName = YesWayFrameWork;
+			productReference = F3CC8B9F19414E010027B537 /* YesWayFrameWork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3CC8BAB19414E010027B537 /* YesWayFrameWorkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3CC8BB919414E020027B537 /* Build configuration list for PBXNativeTarget "YesWayFrameWorkTests" */;
+			buildPhases = (
+				F3CC8BA819414E010027B537 /* Sources */,
+				F3CC8BA919414E010027B537 /* Frameworks */,
+				F3CC8BAA19414E010027B537 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3CC8BAE19414E010027B537 /* PBXTargetDependency */,
+			);
+			name = YesWayFrameWorkTests;
+			productName = YesWayFrameWorkTests;
+			productReference = F3CC8BAC19414E010027B537 /* YesWayFrameWorkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3CC8B9719414E010027B537 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = 95190;
+				TargetAttributes = {
+					F3CC8B9E19414E010027B537 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					F3CC8BAB19414E010027B537 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = F3CC8B9E19414E010027B537;
+					};
+				};
+			};
+			buildConfigurationList = F3CC8B9A19414E010027B537 /* Build configuration list for PBXProject "YesWayFrameWork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F3CC8B9619414E010027B537;
+			productRefGroup = F3CC8BA019414E010027B537 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3CC8B9E19414E010027B537 /* YesWayFrameWork */,
+				F3CC8BAB19414E010027B537 /* YesWayFrameWorkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3CC8B9D19414E010027B537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3CC8BA719414E010027B537 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3CC8BAA19414E010027B537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3CC8B9B19414E010027B537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3CC8BA519414E010027B537 /* AppDelegate.swift in Sources */,
+				F3019855194C54C7009612E3 /* ViewControllerPathManager.swift in Sources */,
+				F3CC8BBF19414F330027B537 /* HttpHead.swift in Sources */,
+				F319E2EF194AFD2800F7AAA4 /* NodeAndViewControllerID.swift in Sources */,
+				F3019853194C4B1B009612E3 /* TestViewController.swift in Sources */,
+				F3CA1F4D1948049400E23675 /* BusinessHttpConnectWithNtspHeader.swift in Sources */,
+				F319E2EB194AF94100F7AAA4 /* BaseViewController.swift in Sources */,
+				F30E0165194DE10E00B985C7 /* RootNode.swift in Sources */,
+				F32357571946E7E900C888F6 /* FileHttpConnect.swift in Sources */,
+				F3CA1F5F19485AAC00E23675 /* TestBusiness.swift in Sources */,
+				F3CA1F501948052E00E23675 /* NtspHeader.swift in Sources */,
+				F35FB5F2194E91B00058461B /* BaseCustomMessageBox.swift in Sources */,
+				F319E2E8194AF8AC00F7AAA4 /* BaseNode.swift in Sources */,
+				F3CC8BC1194152AA0027B537 /* HttpErrorCodeManager.swift in Sources */,
+				F3CA1F4B1947FF7900E23675 /* BaseBusiness.swift in Sources */,
+				F3CC8BC9194161ED0027B537 /* BaseHttpConnect.swift in Sources */,
+				F3CA1F551948257500E23675 /* BaseDataModule.swift in Sources */,
+				F3CC8BC719415F1D0027B537 /* HttpConnectRespones.swift in Sources */,
+				F3CA1F5D194840D200E23675 /* DataModuleDelegate.swift in Sources */,
+				F3CC8BCB194166A90027B537 /* HttpConnectDelegate.swift in Sources */,
+				F35FB5F5194E96770058461B /* TestUserMoudle.swift in Sources */,
+				F301984E194C3377009612E3 /* CustomActivityIndicatorView.swift in Sources */,
+				F3CA1F481947FE5B00E23675 /* Config.swift in Sources */,
+				F3CA1F5219481E3F00E23675 /* HttpConnectDefineData.swift in Sources */,
+				F319E2E3194ADA0A00F7AAA4 /* BusinessType.swift in Sources */,
+				F319E2E5194AE06C00F7AAA4 /* BusinessFactory.swift in Sources */,
+				F3CC8BC519415DB30027B537 /* ResDefine.swift in Sources */,
+				F3019850194C41C7009612E3 /* CommandID.swift in Sources */,
+				F3CA1F57194828A400E23675 /* BusinessInterface.swift in Sources */,
+				F319E2ED194AFCE900F7AAA4 /* Message.swift in Sources */,
+				F3CA1F421947E83900E23675 /* BaseBusinessHttpConnect.swift in Sources */,
+				F3CA1F5B194831F200E23675 /* HttpConnectInterface.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3CC8BA819414E010027B537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3CC8BB319414E020027B537 /* YesWayFrameWorkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3CC8BAE19414E010027B537 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3CC8B9E19414E010027B537 /* YesWayFrameWork */;
+			targetProxy = F3CC8BAD19414E010027B537 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F3CC8BB419414E020027B537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3CC8BB519414E020027B537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3CC8BB719414E020027B537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = YesWayFrameWork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F3CC8BB819414E020027B537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = YesWayFrameWork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F3CC8BBA19414E020027B537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YesWayFrameWork.app/YesWayFrameWork";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YesWayFrameWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		F3CC8BBB19414E020027B537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YesWayFrameWork.app/YesWayFrameWork";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YesWayFrameWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3CC8B9A19414E010027B537 /* Build configuration list for PBXProject "YesWayFrameWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3CC8BB419414E020027B537 /* Debug */,
+				F3CC8BB519414E020027B537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3CC8BB619414E020027B537 /* Build configuration list for PBXNativeTarget "YesWayFrameWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3CC8BB719414E020027B537 /* Debug */,
+				F3CC8BB819414E020027B537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3CC8BB919414E020027B537 /* Build configuration list for PBXNativeTarget "YesWayFrameWorkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3CC8BBA19414E020027B537 /* Debug */,
+				F3CC8BBB19414E020027B537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3CC8B9719414E010027B537 /* Project object */;
+}
